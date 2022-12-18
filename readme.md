@@ -1,0 +1,1 @@
+# Various notes on RxJS library for Angular development

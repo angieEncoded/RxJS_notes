@@ -16,4 +16,15 @@
   - Takes an observable as input and outputs a new observable
 - Pipeable Operators
   - Functions for transforming, filtering, and combining data
-  - 
+- Some noteable operators and their uses
+  - switchMap
+    - Stop working on the order and start working on the new order - only the latest will be completed
+  - concatMap 
+    - The order is added to a queue. 
+    - Finish what you are working on
+    - Once done, work on the next order
+  - mergeMap
+    - Work on all orders at the same time as soon as you are given them
+  - exhaustMap
+    - Ignore new orders and finish whatever orders you are working on
+    - Once done you can accept new orders
