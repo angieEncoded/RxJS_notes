@@ -1,0 +1,19 @@
+# observables
+- a wrapper around a data source
+  - mouse events
+  - keyboard events
+  - file uploads
+  - http requests
+- Lets us filter, sort, and coordinate data.
+- We can observe the data omitted from a source
+- Observers
+  - Receive the data an observable emitted
+    - This is a subscription
+  - Multiple Observers can subscribe to an observable
+- Creation operators
+  - Creates new observables
+- Pipeable operators
+  - Takes an observable as input and outputs a new observable
+- Pipeable Operators
+  - Functions for transforming, filtering, and combining data
+  - 
